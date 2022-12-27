@@ -53,10 +53,7 @@
 .feature-area{
     overflow: auto;
 }
-li:active{
-    background-color: rgb(4, 4, 88);
-    /* border: 2px solid rgb(185, 18, 18); */
-}
+
 .page-item{
     border: 1px solid gray;
 }
@@ -69,4 +66,8 @@ li:active{
    border-radius: 100px;
    border: 2px solid rgb(0, 128, 255);
     padding: 10px;
+}
+.techs-we-do{
+    height: 30px;
+    width: 20px;
 }
