@@ -20,13 +20,13 @@
       <div class="collapse navbar-collapse justify-content-center align-items-center w-100 text-bg-light py-0 my-sm-0 view overlay" id="collapsibleNavbar" style="color:black;font-weight:bolder;">
         <ul class="navbar-nav mx-auto text-center table-hover" style="font-size: 12px;">
           <li class="nav-item">
-            <a class="nav-link nav-pills p-3 text-black" href="index.html">HOME</a>
+            <a class="nav-link nav-pills p-3 text-black as" href="index.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-pills p-3 text-black" href="#">ABOUT US</a>
+            <a class="nav-link nav-pills p-3 text-black as" href="#">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-pills p-3 text-black" href="https://wa.me/message/7F5BYYZTH43LA1">CONTACT</a>
+            <a class="nav-link nav-pills p-3 text-black as" href="https://wa.me/message/7F5BYYZTH43LA1">CONTACT</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link disabled p-3 text-black" href="#">BLOG</a>
@@ -115,7 +115,7 @@
     <div class="row">
       <div class="col-sm-5">
         <div class="intro-block">
-          <span><i class="far fa-lightbulb"></i></span>
+          <span><i class="far fa-lightbulb iconz"></i></span>
           <h3 class="misvis"> Vision </h3>
           <p>
              To create of environment where everyone's ideals
@@ -124,8 +124,8 @@
         </div>
       </div>
       <div class="col-sm-7">
-        <div class="intro-block wow fadeInUp">
-          <span><i class="fas fa-dove"></i></span>
+        <div class="intro-block">
+          <span><i class="fas fa-dove iconz"></i></span>
           <h3 class="misvis"> Mission </h3>
           <p>
            To build creative, new applications that
@@ -142,7 +142,7 @@
 </div>
 </section>
 <!-- Why us section  -->
-<section class="feature-area p-5" id="feature">
+<section class="feature-area p-5 mb-0">
   <div class="container">
 
       <div class="row">
@@ -156,7 +156,7 @@
                        of technology or technology based embracement into work of life. The world is moving fast,
                         trends are unpredictably changing and no one can stop that.<br> We are trying to bridge
                         the gap between our human capacity and technology demands. We are helping in pursuing
-                        SDG goal 9 – Industry, Innovation and Infrastructure. This can only happen in a digita
+                        SDG goal 9 Industry, Innovation and Infrastructure. This can only happen in a digita
                         l technology oriented environment; hence we need to equip people with technology skill
                         to cover up the space and pace we have left behind in joining the advancing nation on board.
                       </p>
@@ -171,7 +171,7 @@
         <div class="col-sm-12 col-lg-4 text-center " id="row">
                 <div class="single-block ">
                 <span class="featured-icon">
-                <i class="fas fa-globe"></i></span>
+                <i class="fas fa-globe  techz"></i></span>
                 <h3>Web  Design &amp; Development</h3>
                 <p>We develop top notch and responsive web applications for organizations
                   and individuals using modern, suitable technologies and methodologies
@@ -180,7 +180,7 @@
 
                 <div class="single-block ">
                   <span class="featured-icon">
-                  <i class="fas fa-mobile"></i></span>
+                  <i class="fas fa-mobile  techz"></i></span>
                   <h3>Mobile App Development</h3>
                   <p>We have a vast expertise in application development for IOS, Android, Windows, mobile backend, integration
                      of various services post-launch support.
@@ -190,14 +190,14 @@
       <div class="col-sm-12 col-lg-4 text-center">
             <div class="single-block ">
               <span class="featured-icon">
-              <i class="fas fa-edit"></i></span>
+              <i class="fas fa-edit  techz "></i></span>
               <h3>Graphic Design</h3>
               <p>We create visual concepts, by using modern software tools,
                 to communicate ideas that inspire, inform, or captivate consumers.  </p>
            </div>
            <div class="single-block">
               <span class="featured-icon">
-                <i class="fas fa-shopping-cart"></i></span>
+                <i class="fas fa-shopping-cart techz"></i></span>
               <h3>Digital Marketing</h3>
               <p>We create visual concepts, by using modern software tools,
                 to communicate ideas that inspire, inform, or captivate consumers. </p>
@@ -213,16 +213,15 @@
     </div>
   </div>
 </section>
-<!-- end of why us section  -->
-<section id="service-h">
+<!-- services section  -->
+
+<section>
   <div class="container-fluid my-5 p-4">
     <div class="row">
       <div class="col-md-6">
         <div class="service-himg p-2">
         <img src="img/software-engineer.jpg" class="img-fluid w-100">
-        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/SpST9c-q9Vo?start=5" frameborder="0" 
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-             </div>
+        </div>
       </div>
       <div class="col-md-6 pt-4 px-5">
         <div class="service-h-desc">
@@ -232,28 +231,40 @@
           and individuals work better. Everything from creating standards of 
           excellence to training our people to work in more effective ways.</p>
           
-          <div>
-            <ul class="pagination  pagination-sm nav">
-            <li class="page-item w-50"> <a class="nav-item nav-link active bg-primary text-white p-2" id="nav-home-tab" data-toggle="tab" href="index.html">Training</a></li>
-            <li class="page-item w-50"> <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#">Developing</a></li>
-            <li class="page-item w-50"> <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="" role="tab" aria-controls="nav-profile">Mentorship</a></li>
-        </ul>
-            <div>
-              <div class=" show active text-start">
+          <div class="service-h-tab">
+            <nav class="nav nav-tabs" id="myTab" role="tablist">
+              <a class="nav-item nav-link active" id="description1-tab" data-toggle="tab" href="#description1" role="tab"
+                aria-controls="description1" aria-expanded="true">Training</a>
+              <a class="nav-item nav-link" id="description2-tab" data-toggle="tab" href="#description2" role="tab"
+                aria-controls="description2">Developing</a>
+              <a class="nav-item nav-link" id="description3-tab" data-toggle="tab" href="#description3" role="tab"
+                aria-controls="description3">Mentorship</a>
+            </nav>
+                <!-- pagination
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link show active" href="#description1">Pre</a></li>
+                  <li class="page-item"><a class="page-link" href="#description2">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul> -->
+                <!-- end of it -->
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="#description1" role="tabpanel" aria-labelledby="#description1-tab">
                 <p>
-                   We offer training in digital  skills . Following are the  available courses;
+                   We offer training in digital  skills . Following are the  available courses; 
                    <b> Frontend Web Development </b>, <b> Backend Web Development </b>, <b>Desktop Application Development </b>,
                    <b>Mobile Application Development </b>, <b> Data Science</b>, <b> UI/UX</b>,
                     <b> Data Analysis </b>, <b> Microsoft Office </b>, <b> Computer Essential</b>, <b> Scratch</b> and <b> MIT App Investor</b>.
-              </p></div>
-              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              </div>
+              <div class="tab-pane fade " id="description2" role="tabpanel" aria-labelledby="description2-tab">
                 <p>A community bound to escalate her standards imbibes dynamicity. 
                   We are a pursuant of innovation in all ramifications that transits our
                    community to the place of our dream. We breed an impetus to redefine the standard of
                    excellence in our propensity.
                     We are a receptacle of ideas and steps that change the view and challenge status quo.</p>
               </div>
-              <div class="tab-pane fade" id="my-profile" role="tabpanel" aria-labelledby="my-profile-tab">
+              <div class="tab-pane fade" id="description3" role="tabpanel" aria-labelledby="description3-tab">
                 <p>Success is dependent on the relationship.
                  We do great things together. We value the potential built in everyone
                   and hence believe in collaboration as a tool to mobilize for a common 
@@ -269,13 +280,132 @@
   </div>
 </section>
 <!-- Our training classes -->
-<section class="container my-3">
-  <h3>We are Providing great Services</h3>
-  <div class="heading-border-light"></div>
-  <p>OIC Hub offer the full spectrum of services to help organizations 
-  and individuals work better. Everything from creating standards of 
-  excellence to training our people to work in more effective ways.</p>
-</section>
+<section class="more-feature">
+  <div class="container">
+      <div class="row">
+              <div class="col-sm-12 text-center">
+                      <div>
+                              <h3>Our Training Classes</h3>
+                          <div class="sub-heading2">
+                              <p>
+                             We equip people with IT skills thereby mobilizing the
+                              skills to solve the immediate and future challenges of our community.
+                              We organize digital skills seminar for organizations  and schools.
+                              Below are our available courses.
+                              </p>
+                            </div>
+                       </div>
+                  </div>
+      </div>
+      <div class="margin-container">
+      <div class="row">
+      <div class="col-sm-12 col-md-5 offset-md-1 ">
+              <div class="feature-list">
+                  <ul>
+                      <li class="list-group">
+                          <div class="feature-icon">
+                            <i class="fas fa-laptop-code text-primary"></i>
+                          </div>
+                          <div class="feature-details">
+                            <h3>Front-end development</h3>
+                            <p>For beginners in the web development,
+                               this course equips students on the necessary
+                              foundational skills to launch prolific career in front-end web development
+                            </p>
+                          </div>
+                      </li>
+                    <li class=" list-group">
+                      <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i> 
+                      </div>
+                      <div class="feature-details">
+                        <h3>Back-end development</h3>
+                        <p>This training is essential for smart data oriented websites.
+                          This course details the communication between the website and server.
+                        </p>
+                      </div>
+                  </li>
+                  <li class=" list-group">
+                    <div class="feature-icon">
+                      <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="feature-details">
+                      <h3>Full stack development</h3>
+                      <p>This explains the full fledge development of website.
+                        It combines both front-end and back-end development of website. </p>
+                    </div>
+                </li>
+                <li class=" list-group">
+                  <div class="feature-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                  </div>
+                  <div class="feature-details">
+                    <h3>Mobile Application Development</h3>
+                    <p>Our state-of-the-art learning aids will equip
+                      potential Mobile Application developers with the
+                       skills needed to have a head up in creativity.
+                       </p>
+                  </div>
+              </li>
+                  </ul>
+              </div>
+  
+      </div>
+          <div class="col-sm-12 col-md-5 ">
+              <div class="feature-list">
+                  <ul>
+                      <li class="list-group">
+                          <div class="feature-icon">
+                          <i class="fas fa-digital-tachograph"></i>
+                          </div>
+                          <div class="feature-details">
+                            <h3>Data Science</h3>
+                            <p>Complete Data Science Training: Mathematics, Statistics, Python,
+                             Advanced Statistics 
+                             in Python, Machine &amp; Deep Learning </p>
+                          </div>
+                      </li>
+                    <li class=" list-group">
+                      <div class="feature-icon">
+                      <i class="fas fa-chart-bar"></i>
+                      </div>
+                      <div class="feature-details">
+                        <h3>Data Analysis</h3>
+                        <p>Take your data analysis skills from ZERO to PRO with Excel Pivot Tables.
+                        Learn how to use Pivot Tables and Pivot Charts to streamline and absolutely 
+                        revolutionize your workflow in Excel
+                        </p>
+                      </div>
+                  </li>
+                  <li class=" list-group">
+                    <div class="feature-icon">
+                    <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="feature-details">
+                      <h3> Computer Essential and  Microsoft Office</h3>
+                      <p>This explains the full fledge development of website.
+                        It combines both front-end and back-end development of website. </p>
+                    </div>
+                </li>
+                <li class=" list-group">
+                  <div class="feature-icon">
+                    <i class="fas fa-laptop-code"></i>
+                  </div>
+                  <div class="feature-details">
+                    <h3> Summer of Code &amp; Weekend's Club</h3>
+                    <p>Our state-of-the-art learning aids will equip
+                      potential software developers with the
+                       skills needed to have a head up in creativity.
+                       </p>
+                  </div>
+              </li>
+                  </ul>
+              </div>
+  
+      </div>
+    </div>
+    </div>
+  </div></section>
 <!-- ---------------------------------------------------------------------------------------------------------------------- -->
    <!-- jS Section below -->
    <script src="bootstrap.bundle.min.js">
