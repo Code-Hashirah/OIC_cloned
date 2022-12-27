@@ -65,6 +65,8 @@ li:active{
     background-color: cyan;
     color: white;
 }
-.list-group{
-    
+.techlogo{
+   border-radius: 100px;
+   border: 2px solid rgb(0, 128, 255);
+    padding: 10px;
 }
