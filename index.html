@@ -446,13 +446,13 @@
   </div>
 </section>
 <!-- footer section of page index -->
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.074918023997!2d4.5669310145994455!3d7.781881509414259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1037895c78efeac5%3A0xac5ed308fc48ad34!2sOIC%20Hub!5e0!3m2!1sen!2sng!4v1670108452203!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.074918023997!2d4.5669310145994455!3d7.781881509414259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1037895c78efeac5%3A0xac5ed308fc48ad34!2sOIC%20Hub!5e0!3m2!1sen!2sng!4v1670108452203!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
   <!--====================================================
                       FOOTER
 ======================================================-->
 <footer>
-    <div  class="footer-s1 bg-black">
+    <div  class="footer-s1 bg-black text-bg-dark">
       <div class="footer">
         <div class="container">
           <div class="row">
@@ -463,7 +463,7 @@
               </div>
               <ul class="list-unstyled comp-desc-f">
                 <li>
-                  <p> To create of environment where everyone's ideals
+                  <p class="text-start"> To create of environment where everyone's ideals
                  can be implemented to solve people's and community problems.</p>
                 </li>
               </ul><br>
@@ -472,13 +472,13 @@
 
             <!-- Recent News -->
             <div class="col-md-4">
-              <div class="heading-footer">
+              <div class="heading-footer text-center">
                 <h2>Useful Links</h2>
               </div>
-              <ul class="list-unstyled link-list">
-              <li><a href="index.html">Home</a></li><br>
-                <li><a href="/about.html">About us</a></li><br>
-                <li><a href="https://wa.me/message/7F5BYYZTH43LA1">Contact us</a></li><br>&gt;
+              <ul class="list-unstyled flex-start ">
+              <li><a href="index.html " class="text-white text-decoration-none" style="border: 1px solid black;">Home</a></li><br>
+                <li><a href="/about.html" class="text-white text-decoration-none" style="border: 1px solid black;">About us</a></li><br>
+                <li><a href="https://wa.me/message/7F5BYYZTH43LA1" class="text-white text-decoration-none" style="border: 1px solid black;">Contact us</a></li><br>
               </ul>
             </div>
 
@@ -487,26 +487,49 @@
                 <h2>Get In Touch</h2>
               </div>
               <address class="address-details-f">
-               
-                32 Balogun House, Sabo JUnction <br>
+               32 Balogun House, Sabo JUnction  <br>
                 Osogbo, Osun State<br>
                 Nigeria<br>
                 Phone: +2348102519926 <br>
                 Email: <a href="mailto:info@oichub.org" class="">info@oichub.org</a>
               </address>
-              <ul class="list-inline social-icon-f top-data">
-                <li><a href="http://facebook.com/oicmediahub" target="_empty"><i class="fab  fa-facebook-f"></i></a></li>
-                <li><a href="http://twitter.com/oicmediahub" target="_empty"><i class="fab  fa-twitter"></i></a></li>
-                <li><a href="http://instagram.com/oicmediahub" target="_empty"><i class="fab  fa-instagram"></i></a></li>
-                <li><a href="http://linkedin.com/company/oicmediahub" target="_empty"><i class="fab  fa-linkedin"></i></a></li>
+              <ul class="list-inline flex-sm-row">
+                <li><a href="http://facebook.com/oicmediahub" target="_blank"><i class="fab  fa-facebook-f"></i></a></li>
+                <li><a href="http://twitter.com/oicmediahub" target="blank"><i class="fab  fa-twitter"></i></a></li>
+                <li><a href="http://instagram.com/oicmediahub" target="blank"><i class="fab  fa-instagram"></i></a></li>
+                <li><a href="http://linkedin.com/company/oicmediahub" target="_blank"><i class="fab  fa-linkedin"></i></a></li>
               </ul>
             </div>
+
+            <div id="footer-bottom">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div id="footer-copyrights">
+                      <p>Copyrights © 2022 All Rights Reserved by OIC Hub. <a href="https://oichub.org/index.php#">Privacy Policy</a> <a href="https://oichub.org/index.php#">Terms of Services</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="index.html" id="back-to-top" class="btn btn-sm btn-green btn-back-to-top smooth-scrolls hidden-sm hidden-xs" title="home" role="button">
+              <i class="fa fa-angle-up"></i>
+            </a>
+  </footer>
+
+  <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-4 offset-md-4">  <h2 class="wall text-primary"> Our Social Media Wall </h2></div>
+  <iframe allowfullscreen="" id="wallsio-iframe" src="https://walls.io/t38xg?nobackground=1&amp;show_header=0" style="border:0;height:400px;width:100%" title="My social wall">
+  </iframe>
+  </div>
+  </div>
 <!-- ---------------------------------------------------------------------------------------------------------------------- -->
    <!-- jS Section below -->
    <script src="bootstrap.bundle.min.js">
-      $( document ).ready(function() {
-    new WOW().init();
-  });
+  //     $( document ).ready(function() {
+  //   new WOW().init();
+  // });
    </script>
  
 </body>
